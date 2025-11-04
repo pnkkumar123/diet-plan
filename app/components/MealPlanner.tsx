@@ -73,7 +73,7 @@ async function generatePlan() {
               </label>
               <input
                 type="text"
-                placeholder="e.g., vegetarian, gluten-free, Indian"
+                placeholder="e.g., vegetarian, gluten-free"
                 value={preferences}
                 onChange={(e) => setPreferences(e.target.value)}
                 className="w-full px-5 py-4 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none transition-colors text-gray-800 text-lg"
